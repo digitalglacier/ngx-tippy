@@ -1,0 +1,29 @@
+{
+  "name": "ngx-tippy",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^7.0.0",
+    "@angular/core": "^7.0.0",
+    "rxjs": "~6.2.0"
+  },
+  "dependencies": {
+    "tippy.js": "^5.1.2",
+    "tslib": "^1.9.0"
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "not IE_Mob 11",
+    "maintained node versions"
+  ],
+  "main": "bundles/ngx-tippy.umd.js",
+  "module": "fesm5/ngx-tippy.js",
+  "es2015": "fesm2015/ngx-tippy.js",
+  "esm5": "esm5/ngx-tippy.js",
+  "esm2015": "esm2015/ngx-tippy.js",
+  "fesm5": "fesm5/ngx-tippy.js",
+  "fesm2015": "fesm2015/ngx-tippy.js",
+  "typings": "ngx-tippy.d.ts",
+  "metadata": "ngx-tippy.metadata.json",
+  "sideEffects": false
+}

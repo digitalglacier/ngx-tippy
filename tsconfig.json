@@ -16,6 +16,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-tippy": [
+        "projects/ngx-tippy/dist/"
+      ],
+      "ngx-tippy/*": [
+        "projects/ngx-tippy/dist/*"
+      ]
+    }
   }
 }
